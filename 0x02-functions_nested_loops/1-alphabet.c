@@ -1,6 +1,9 @@
 #include "main.h"
-
-int main(void)
+/**
+ * void -Entry point
+ * Program that prints the alphabet
+ */
+void print_alphabet(void)
 {
 	char alpha;
 	alpha='a';
@@ -9,5 +12,5 @@ int main(void)
 		_putchar(alpha);
 		alpha++;
 	}
-	return (0);
+	_putchar('\n');
 }
