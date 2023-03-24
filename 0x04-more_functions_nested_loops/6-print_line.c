@@ -1,0 +1,28 @@
+#include "main.h"
+
+/**
+ * print_line - prints a line as long
+ * as the n value given
+ *
+ * @n: given value to print lines
+ *
+ * Return: Always 0.
+ */
+void print_line(int n)
+{
+	int i;
+
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
+	else
+	{
+		for (i = 1; i <= n; i++)
+		{
+			_putchar('_');
+		}
+		_putchar('\n');
+	}
+}
+
