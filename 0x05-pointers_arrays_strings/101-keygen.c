@@ -17,7 +17,7 @@ int main(void)
 
 	for (i = 0, sum = 0; sum < 2772 + 122; i++)
 	{
-		password[i] = rand() % 94 + 33;
+		password[i] = rand() % 78;
 		sum += password[i];
 	}
 
